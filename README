@@ -1,0 +1,85 @@
+________________________________________________________________________________
+|                                                                              |
+|                               Group: 313CB                                   |
+|                          Last Name: Gentiana Adeane                          |
+|                            First Name: Marcu                                 |
+|______________________________________________________________________________|
+|                                                                              |
+|                                                                              |
+|			  _____                    _____                       |
+|			 /\    \                  /\    \                      |
+|			/::\    \                /::\    \                     |
+|		       /::::\    \              /::::\    \                    |
+|		      /::::::\    \            /::::::\    \                   |
+|		     /:::/\:::\    \          /:::/\:::\    \                  |  
+|		    /:::/__\:::\    \        /:::/  \:::\    \                 |
+|		   /::::\   \:::\    \      /:::/    \:::\    \                |
+|		  /::::::\   \:::\    \    /:::/    / \:::\    \               |
+|		 /:::/\:::\   \:::\____\  /:::/    /   \:::\    \              |
+|		/:::/  \:::\   \:::|    |/:::/____/     \:::\____\             |
+|		\::/    \:::\  /:::|____|\:::\    \      \::/    /             |
+|		 \/_____/\:::\/:::/    /  \:::\    \      \/____/              |
+|			  \::::::/    /    \:::\    \                          |
+|			   \::::/    /      \:::\    \                         |
+|			    \::/____/        \:::\    \                        |
+|			     ~~               \:::\    \                       |
+|				               \:::\    \                      |
+|				                \:::\____\                     |
+|				                 \::/    /                     |
+|				                  \/____/                      |
+|				                                               |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                     Tema 5                                   |
+|               		 Image processing                              |
+|                                   TAB SIZE: 4                                |
+|______________________________________________________________________________|
+|                                                                              |
+|    La fiecare task am lucrat intr-o copie a imaginii, am redenumit copia si  |
+| am afisat-o.                                                                 |
+|______________________________________________________________________________|
+|                                                                              |
+|                                     TASK 1                                   |
+|______________________________________________________________________________|
+|                                                                              |
+|    Am facut media intre pixelii de rosu, verde si albastru si am inlocuit    |
+| fiecare pixel cu media. Astfel, imaginile au devenit alb - negru.            |
+|______________________________________________________________________________|
+|                                                                              |
+|                                     TASK 2                                   |
+|______________________________________________________________________________|
+|                                                                              |
+|    In functie de inaltime si latime, am creat o noua imagine cu dimensiunile |
+| inaltime - inaltime sau lungime - lungime. Am setat toti pixelii pe alb si   |
+| am copiat imaginea data in cea creata, la mijloc. Daca imaginea data este    |
+| deja patratica, se copiaza fara nicio modificare in copia creata.            |
+|______________________________________________________________________________|
+|                                                                              |
+|                                     TASK 3                                   |
+|______________________________________________________________________________|
+|                                                                              |
+|    Citesc filtrul din fisierul "filters" si parcurg poza, pentru a-l aplica. |
+|______________________________________________________________________________|
+|                                                                              |
+|                                     TASK 4                                   |
+|______________________________________________________________________________|
+|                                                                              |
+|    Am aplicat filtrul de pooling la fel ca la taskul 3, dupa ce am calculat  |
+| minimul sau maximul dintre pixelii vecini. Daca poza are vecini in exterior, |
+| minimul va fi 0.                                                             |
+|______________________________________________________________________________|
+|                                                                              |
+|                                     TASK 5                                   |
+|______________________________________________________________________________|
+|                                                                              |
+|    Am creat o functie recursiva, explore, care exploreaza pixelii care nu au |
+| fost explorati si o alta functie recursiva, setAverage, care imi grupeaza    |
+| pixelii pe zone, in cazul in care acestia nu apartin deja altei zone.. In    |
+| "task5" am parcurs imaginea si am grupat fiecare pixel, rosu, verde si       |
+| albastru pe zone.                                                            |
+|______________________________________________________________________________|
+|                                                                              |
+|    In main am apelat functiile scrise pentru fiecare task si am eliberat     |
+| memoria.                                                                     |
+|______________________________________________________________________________|
